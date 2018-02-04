@@ -31,7 +31,6 @@ player playActionNow "Medic";
 [player, "gut", 0, false, 5] call dayz_zombieSpeak;
 [player,5,true,(getPosATL player)] spawn player_alertZombies;
 if (_humanity >=-2501) then {
-playSound "heartbeat_1";
 r_player_inpain = true;
 player setVariable["USEC_inPain",true,true];
 if (_hunger <= 25) then {[-20,0] call player_humanityChange;"You try to comfort yourself...you would have starved if you did not."call dayz_rollingMessages;}else {[-40,0] call player_humanityChange;"I was not dying of hunger, I do not know why I did it." call dayz_rollingMessages;}; 
