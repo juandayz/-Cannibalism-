@@ -1,4 +1,4 @@
-# -Cannibalism- Original idea by seaweeduk
+# -Cannibalism- Original idea by seaweeduk http://opendayz.net/threads/cannibalism.12218/
 Allow players to get meat from dead players or death ai.
 
 1.Open your fn_selfactions.sqf
