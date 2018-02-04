@@ -50,12 +50,12 @@ BELOW OF:
  s_player_cannibal = -1;
  ```
  
- 3.Open your variables.sqf  and add: 
+ 3.Open your variables.sqf  and add with the rest of actions:
  
  ```ruby
  s_player_cannibal = -1;  
  ```
  
- with the rest of actions.
+ 
  
  4.Drop cannibal folder into your scripts folder. 
