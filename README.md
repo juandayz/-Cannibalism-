@@ -5,17 +5,8 @@ Allow players to get meat from dead players or death ai.
 
 PASTE:
 
-
-//CANNIBAL
 if (_isMan && {!_isAlive} && {!(_cursorTarget isKindOf "zZombie_base")} && {!(_cursorTarget getVariable["meatHarvested",false])}) then {
-if (s_player_cannibal < 0) then {
-	s_player_cannibal = player addAction ["butcher body","scripts\cannibal\player_gutPlayer.sqf",_cursorTarget,0, false,true];
-};
-} else {
-player removeAction s_player_cannibal;
-s_player_cannibal = -1;
-};
-//CANNIBAL
+
 
 
 BELOW OF:
