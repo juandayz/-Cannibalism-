@@ -42,16 +42,19 @@ BELOW OF:
 	player removeAction s_player_manageDoor;
 	s_player_manageDoor = -1;
   ```
+  
   Below PAste:
+  
   ```ruby
   player removeAction s_player_cannibal;
  s_player_cannibal = -1;
  ´´´
  
  3.Open your variables.sqf  and add: 
-  ```ruby
+ 
+ ```ruby
  s_player_cannibal = -1;  
- ´´´
+ ```
  
  with the rest of actions.
  
