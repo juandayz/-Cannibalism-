@@ -48,7 +48,7 @@ BELOW OF:
   ```ruby
   player removeAction s_player_cannibal;
  s_player_cannibal = -1;
- ´´´
+ ```
  
  3.Open your variables.sqf  and add: 
  
