@@ -36,18 +36,23 @@ BELOW OF:
   
   
   2. Near of buttom find:
-  
+  ```ruby
   player removeAction s_player_fuelauto2;
 	s_player_fuelauto2 = -1;
 	player removeAction s_player_manageDoor;
 	s_player_manageDoor = -1;
-  
+  ```
   Below PAste:
-  
+  ```ruby
   player removeAction s_player_cannibal;
  s_player_cannibal = -1;
+ ´´´
  
+ 3.Open your variables.sqf  and add: 
+  ```ruby
+ s_player_cannibal = -1;  
+ ´´´
  
- 3.Open your variables.sqf  and add: s_player_cannibal = -1;  with the rest of actions.
+ with the rest of actions.
  
  4.Drop cannibal folder into your scripts folder. 
